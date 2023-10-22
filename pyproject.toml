@@ -1,0 +1,10 @@
+[project]
+name = "gaia"
+description = "Omnia Webhook to Stackfield gateway"
+version = "0.1.0"
+
+[tool.setuptools]
+packages = ["gaia"]
+
+[project.scripts]
+gaia = "gaia:__main__.app"
