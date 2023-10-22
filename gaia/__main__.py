@@ -1,4 +1,5 @@
 from .config import settings
+from .stackfield import Stackfield
 
 import uvicorn
 
