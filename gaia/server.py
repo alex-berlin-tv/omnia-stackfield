@@ -22,7 +22,7 @@ async def webhook(request: Request):
     if data["item"]["streamtype"] != "video":
         return
     
-    id = data["id"]["ID"]
+    id = data["item"]["ID"]
     title = data["data"]["general"]["title"]
     uploaded = data["data"]["general"]["uploaded"]
 
